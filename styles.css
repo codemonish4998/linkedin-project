@@ -1,0 +1,78 @@
+/*General Reast*/  
+{margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{ 
+front-family:Arial,sans-serif;
+background: color #f3feff;
+color: #323232;
+}
+/* Header Section*/
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #0073b1;
+    color:white;
+    padding: 10px 20px;
+}
+.log{ 
+    font-size: 24px;
+    font-weight: bold;
+    border color: 2px, black;
+}  
+.nav-links{ list-style: none;
+display: flex;
+}
+.nav-links li{ margin: left 20px;
+}
+.nav-links a{color: white;
+    text-decoration: none
+    font-weight: 500;
+ }
+/*Profile Comtainers*/  
+.profile_comtainers{
+    width:80%;
+    margin:20%;
+    background-color: white;
+    padding:20px;
+    border-radius: 8px;
+    box-shadow: 0.4px 8px rgba(0,0,0,0.1);
+}
+.profile-header{ 
+    display: flex; 
+    align-items: center;    
+}
+.profile-pic{ 
+    width:100px; 
+    height: 100;   
+    border-radius: 50%;
+    margin-right: 20px; 
+}
+.profile.info{
+    flex-grow: 1;
+}
+.connect-btn{ 
+    background-color: #0073b1; 
+    color: white;   
+    boder:none; 
+    padding: 10px,20px; 
+    border-radius: 5px;
+    cursor:pointer;
+}
+.connect-btn:hover{ 
+    background-color: #005582;  
+}
+/* About Section*/
+.about,.experince,.education{ 
+    margin-top: 20px;
+}
+.about h3,.experince h3,.education h3{
+    color:#0073b1;
+    margin-bottom: 10px;     
+} 
+/* Experience Section*/
+.job,.school{ 
+    margine-bottom: 15px;
+}
